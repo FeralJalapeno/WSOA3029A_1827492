@@ -75,4 +75,7 @@ section h2{
     z-index: -2;
     background: linear-gradient(to right top, #ed4264, #ffedbc);
 }
+img{
+    padding-top: 5em;
+}
 
