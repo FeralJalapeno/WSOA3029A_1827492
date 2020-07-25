@@ -26,14 +26,20 @@ nav{
     flex: 1;
 
 }
-nav-ul{
+nav h1{
+    font-family:  'Homemade Apple', cursive;
+}
+nav ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
+
 }
 nav a{
     color: black;
     text-decoration: none;
+    
+    
 }
 section{
     min-height: 100vh;
@@ -59,3 +65,9 @@ section h2{
 .about{
     background: linear-gradient(to right top, #ed4264, #ffedbc);
 }
+.box{
+    position: absolute;
+    z-index: -2;
+    background: linear-gradient(to right top, #ed4264, #ffedbc);
+}
+
