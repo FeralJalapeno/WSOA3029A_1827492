@@ -1,10 +1,11 @@
 .backButton{
     
     padding:10px;
-    background: linear-gradient(to bottom,  #ed4264, #ffedbc);
+    color: linear-gradient(to bottom,  #ed4264, #ffedbc);
     color: black;
     border: none;
     outline: #ffedbc;
     border-radius: 5px;
+    font-family:  'Homemade Apple', cursive;
 
 }
