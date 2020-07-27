@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: linear-gradient(to bottom,  #ed4264, #ffedbc);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width:100vw;
+    height:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+    
+
+
+header{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0px;
+    background-color: aliceblue;
+}
+nav{
+    min-height: 10vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ nav h1, 
+ nav ul{
+    font-size: 1.5rem;
+    flex: 1;
+
+}
+nav h1{
+    font-family:  'Homemade Apple', cursive;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+section h2{
+    font-size: 5rem;
+    color: white;
+
+}
+.home{
+    background: linear-gradient(to right top, #ed4264, #ffedbc);
+    
+}
+.contacts{
+    background: linear-gradient(to right top, #ed4264, #ffedbc);
+}
+.blogs{
+    background: linear-gradient(to right top, #ed4264, #ffedbc);
+}
+.about{
+    background: linear-gradient(to right top, #ed4264, #ffedbc);
+}
+.box{
+    position: absolute;
+    z-index: -2;
+    background: linear-gradient(to right top, #ed4264, #ffedbc);
+}
+img{
+    padding-top: 5em;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a h2{
+    text-decoration: none;
+    color: inherit;
+}
+
