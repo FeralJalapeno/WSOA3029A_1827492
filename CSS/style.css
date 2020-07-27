@@ -10,7 +10,11 @@ body{
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
+    
+
+
 header{
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
     position: sticky;
@@ -77,5 +81,13 @@ section h2{
 }
 img{
     padding-top: 5em;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a h2{
+    text-decoration: none;
+    color: inherit;
 }
 
