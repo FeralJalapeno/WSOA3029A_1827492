@@ -47,6 +47,7 @@
     margin-top:0px;
     font-size:28px;
     color: rgb(255, 7, 110);
+    font-family:  'Homemade Apple', cursive;
   }
   .card-stats {
     grid-area: stats; 
