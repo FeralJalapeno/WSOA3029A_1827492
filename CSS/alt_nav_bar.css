@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom,  #ed4264, #ffedbc);
+   
+}
+.logo{
+    color:white;
+    letter-spacing: 5px;
+    font-size: 30px ;
+    font-family:  'Homemade Apple', cursive;
+}
+.nav-links{
+    display: flex;
+    width:50% ;
+    justify-content: space-around;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-links li{
+    list-style: none;
+}
