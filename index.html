@@ -6,39 +6,161 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-        <link href="CSS\style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="CSS\alt_nav_bar.css">
+        <link rel="stylesheet" href="CSS\cards_main_menu.css">
+       
+        
+        
         
         <title>Feral Jalapeno HomePage</title>
         <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+        <!--THE GRID-->
+   
+      <style>
+            .wrapper{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr) ;
+                grid-auto-rows: minmax(100px,auto) ;
+                grid-gap: 1em;
+                justify-items: center;
+                align-items: center;
+
+            }
+        </style>
     </head>
     <body>
-        
-        <header>
-            <nav>
-                <h1>Peaches & Screams</h1>
-                <ul>
-                    <li><a data-page="home" href="#">Home</a></li>
-                    <li><a data-page="about" href="#">About</a></li>
-                    <li><a data-page="contacts" href="HTML\contact_page.html">Contacts</a></li>
-                    <li><a data-page="blogs" href="HTML\blogs_home.html">Blogs</a></li>
-                    <div class="box"></div>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <!--<section data.index="0" class="home">
-             <h2>HOME</h2></section>
-            <section data.index="1"class="about">
-             <h2>ABOUT</h2></section>
-            <section data.index="2"class="contacts">
-             <h2>CONTACTS</h2></section>
-            <section data.index="3"class="blogs">
-             <h2>BLOGS</h2></section> -->
+        <!--THE NAV BAR-->
+        <nav>
+            <div class="logo">
+                <h4>Peaches & Screams</h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="#"> About</a></li>
+                <li><a href="#"> Creative</a></li>
+                <li><a href="HTML\contact_page.html"> Contacts</a></li>
+                <li><a href="HTML\blogs_home.html"> Blogs</a></li>
+            </ul>
+        </nav>
+     <!--THE CARDS-->
+     <!--<div class= "wrapper">
+            <div class="box">
+                <a href= "../BLOGS\blog_post_one.html">
             
-        </main>
-        <script src="D:\Interactive Media\WSOA3029A_SM2\WSOA3029A_1827492\JS\app.js"></script> 
-      <!-- <center> <img src="https://i.pinimg.com/564x/1f/bd/0b/1fbd0bbbd21514f999665e2ab5f0bea8.jpg" width="350" height="500"></center> --> 
-      
+                    <div class="card" id="blogSquares" >
+                    <div class="card-image"></div>
+                    <div class="card-text">
+                      <span class="date">23 July 2020</span>
+                       <h2>Blog Post One</h2> 
+                      <p>Blog post on the close reading of "Theories of Representation"</p>
+                    </div>
+                    <div class="card-stats">
+                      <div class="stat">
+                        <div class="value">5<sup>m</sup></div>
+                        <div class="type">read</div>
+                      </div>
+                      <div class="stat border">
+                        <div class="value">500</div>
+                        <div class="type">words</div>
+                      </div>
+                      <div class="stat">
+                        <div class="value">2</div>
+                        <div class="type">sources used</div>
+                      </div>
+                    </div>
+        
+                    
+                  </div>
+                </a>
+            </div>
+    
+            <div class="box">
+                <a href= "#">
+            
+                    <div class="card" id="blogSquares" >
+                    <div class="card-image1"></div>
+                    <div class="card-text">
+                      <span class="date">1 day ago</span>
+                       <h2>Blog Post Two</h2> 
+                      <p>TBC</p>
+                    </div>
+                    <div class="card-stats">
+                      <div class="stat">
+                        <div class="value">5<sup>m</sup></div>
+                        <div class="type">read</div>
+                      </div>
+                      <div class="stat border">
+                        <div class="value">500</div>
+                        <div class="type">words</div>
+                      </div>
+                      <div class="stat">
+                        <div class="value">2</div>
+                        <div class="type">sources used</div>
+                      </div>
+                    </div>
+        
+                    
+                  </div>
+                </a>
+            </div>
+            <div class="box"><a href= "#">
+            
+                <div class="card" id="blogSquares" >
+                <div class="card-image2"></div>
+                <div class="card-text">
+                  <span class="date">1 day ago</span>
+                   <h2>Blog Post Three</h2> 
+                  <p>TBC</p>
+                </div>
+                <div class="card-stats">
+                  <div class="stat">
+                    <div class="value">5<sup>m</sup></div>
+                    <div class="type">read</div>
+                  </div>
+                  <div class="stat border">
+                    <div class="value">500</div>
+                    <div class="type">words</div>
+                  </div>
+                  <div class="stat">
+                    <div class="value">2</div>
+                    <div class="type">sources used</div>
+                  </div>
+                </div>
+    
+                
+              </div>
+            </a>
+            </div>
+            <div class="box"><a href= "#">
+            
+                <div class="card" id="blogSquares" >
+                <div class="card-image3"></div>
+                <div class="card-text">
+                  <span class="date">1 day ago</span>
+                   <h2>Blog Post Four</h2> 
+                  <p>TBC</p>
+                </div>
+                <div class="card-stats">
+                  <div class="stat">
+                    <div class="value">5<sup>m</sup></div>
+                    <div class="type">read</div>
+                  </div>
+                  <div class="stat border">
+                    <div class="value">500</div>
+                    <div class="type">words</div>
+                  </div>
+                  <div class="stat">
+                    <div class="value">2</div>
+                    <div class="type">sources used</div>
+                  </div>
+                </div>
+    
+                
+              </div>
+            </a></div>
+        </div>
+     -->
+        
 
     </body>
 </html>
