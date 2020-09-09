@@ -1,0 +1,22 @@
+body{
+    background-color:  #ffedbc;
+
+}
+p{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: #ed4264;
+    letter-spacing: 5px;
+    font-size: 35px ;
+    font-family:  'Homemade Apple', cursive;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: #ed4264;
+    font-size: 25px;
+    font-family:  'Homemade Apple', cursive;
+}
