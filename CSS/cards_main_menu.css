@@ -1,7 +1,7 @@
 .card {
   display: grid;
-  grid-template-columns: 300px;
-  grid-template-rows: 210px 210px 80px;
+  grid-template-columns: 400px;
+  grid-template-rows: 310px 210px 80px;
   grid-template-areas: "image" "text" "stats";
 
   border-radius: 18px;
@@ -25,21 +25,21 @@
 }
 .card-image {
   grid-area: image;
-  background: url("https://i.pinimg.com/564x/80/d3/3e/80d33e3705055afa7ecd0e38f0d66296.jpg");
+  background: url("https://i.pinimg.com/564x/d7/00/3e/d7003e05a0a7db12967d2e6032a9fe59.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
 }
 .card-image1 {
   grid-area: image;
-  background: url("https://i.pinimg.com/564x/e1/a4/f7/e1a4f747fa66535206df392313ee2c3c.jpg");
+  background: url("https://i.pinimg.com/564x/9b/f3/18/9bf318cbff2f955b4e8bedb570802181.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
 }
 .card-image2 {
   grid-area: image;
-  background: url("https://i.pinimg.com/564x/38/ab/17/38ab17ec1bb35f1284fea1b96d496eb3.jpg");
+  background: url("https://i.pinimg.com/564x/e6/f3/81/e6f3819d76f10a4be53065158e66cbeb.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
