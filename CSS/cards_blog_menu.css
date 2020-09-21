@@ -37,14 +37,14 @@ h1{
   }
   .card-image1 {
     grid-area: image;
-    background: url("https://i.pinimg.com/564x/ed/94/5f/ed945f0f3744f14130d8061ea5aee1ba.jpg");
+    background: url("https://i.pinimg.com/564x/4b/f2/ce/4bf2cee7c2c8bb9bb0bf79f7a9c6a542.jpg");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
   }
   .card-image2 {
     grid-area: image;
-    background: url("https://i.pinimg.com/564x/4b/f2/ce/4bf2cee7c2c8bb9bb0bf79f7a9c6a542.jpg");
+    background: url("https://i.pinimg.com/564x/ed/94/5f/ed945f0f3744f14130d8061ea5aee1ba.jpg");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
