@@ -10,6 +10,7 @@ nav{
     min-height: 10vh;
     font-family: sans-serif;
     background: linear-gradient(to bottom,  #ed4264, #ffedbc);
+    z-index: 1;
    
 }
 .logo{
