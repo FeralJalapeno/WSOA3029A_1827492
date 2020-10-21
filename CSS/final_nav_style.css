@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: linear-gradient(to right top, #ed4264, #ffedbc);
+    font-family: sans-serif;
+
+}
+.logo{
+    font-family:  'Homemade Apple', cursive;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+
+}
