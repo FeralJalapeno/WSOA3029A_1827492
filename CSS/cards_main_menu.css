@@ -1,4 +1,8 @@
-.card {
+h1{
+  color: rgb(255, 7, 110);
+    font-size:80px;
+    font-family:  'Homemade Apple', cursive;
+}.card {
   display: grid;
   grid-template-columns: 400px;
   grid-template-rows: 310px 210px 80px;
@@ -25,7 +29,7 @@
 }
 .card-image {
   grid-area: image;
-  background: url("https://i.pinimg.com/564x/d7/00/3e/d7003e05a0a7db12967d2e6032a9fe59.jpg");
+  background: url("https://i.pinimg.com/originals/ab/4b/92/ab4b92128dc7281ccf97a2b376700df8.gif");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
