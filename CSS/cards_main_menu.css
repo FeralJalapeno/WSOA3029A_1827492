@@ -2,101 +2,16 @@ h1{
   color: rgb(255, 7, 110);
     font-size:80px;
     font-family:  'Homemade Apple', cursive;
-}.card {
-  display: grid;
-  grid-template-columns: 400px;
-  grid-template-rows: 310px 210px 80px;
-  grid-template-areas: "image" "text" "stats";
-
-  border-radius: 18px;
-  background: white;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-  font-family: roboto;
-  text-align: center;
-
-  transition: 0.5s ease;
-  cursor: pointer;
-  margin:30px;
 }
-.card-image {
-  grid-area: image;
-}
-.card-text {
-  grid-area: text;
-}
-.card-stats {
-  grid-area: stats; 
-}
-.card-image {
-  grid-area: image;
-  background: url("https://i.pinimg.com/originals/ab/4b/92/ab4b92128dc7281ccf97a2b376700df8.gif");
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  background-size: cover;
-}
-.card-image1 {
-  grid-area: image;
-  background: url("https://i.pinimg.com/564x/9b/f3/18/9bf318cbff2f955b4e8bedb570802181.jpg");
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  background-size: cover;
-}
-.card-image2 {
-  grid-area: image;
-  background: url("https://i.pinimg.com/564x/e6/f3/81/e6f3819d76f10a4be53065158e66cbeb.jpg");
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  background-size: cover;
-}
-
-.card-text {
-  grid-area: text;
-  margin: 25px;
-}
-.card-text .date {
+h3{
   color: rgb(255, 7, 110);
-  font-size:13px;
-}
-.card-text p {
-  color: grey;
-  font-size:15px;
-  font-weight: 300;
-}
-.card-text h2 {
-  margin-top:0px;
-  font-size:28px;
-  color: rgb(255, 7, 110);
-  font-family:  'Homemade Apple', cursive;
-}
-.card-stats {
-  grid-area: stats; 
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  font-size:30px;
+  font-family: sans-serif  ;
 
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background:  #ed4264;
 }
-.card-stats .stat {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 
-  color: white;
-  padding:10px;
-}
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-}
-.grid{
-  display: grid;
-  grid-template-columns:repeat (3,1fr) ;
 
-  grid-template-rows: repeat ( 3,1fr); 
-}
+
 a {
     text-decoration: none;
 }
