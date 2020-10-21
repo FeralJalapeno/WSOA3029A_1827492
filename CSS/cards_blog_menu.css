@@ -112,7 +112,12 @@ h1{
     transform: scale(1.05);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
-  
+  .grid{
+    display: grid;
+    grid-template-columns:repeat (3,1fr) ;
+
+    grid-template-rows: repeat ( 3,1fr); 
+  }
   a {
       text-decoration: none;
   }
