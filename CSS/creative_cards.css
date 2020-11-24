@@ -56,6 +56,13 @@ h1{
     border-top-right-radius: 15px;
     background-size: cover;
   }
+  .card-image4 {
+    grid-area: image;
+    background: url("https://i.pinimg.com/originals/6c/6b/67/6c6b67143f9fc578f54ed1793402c612.gif");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
  
   .card-text {
     grid-area: text;
