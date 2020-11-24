@@ -1,0 +1,111 @@
+h1{
+  color: rgb(255, 7, 110);
+    font-size:30px;
+    font-family:  'Homemade Apple', cursive;
+}
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+  
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+  }
+  .card-image {
+    grid-area: image;
+  }
+  .card-text {
+    grid-area: text;
+  }
+  .card-stats {
+    grid-area: stats; 
+  }
+  .card-image {
+    grid-area: image;
+    background: url("https://i.pinimg.com/564x/dd/93/0c/dd930cb5a76a30f8e9ad882dc7d86d77.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+  .card-image1 {
+    grid-area: image;
+    background: url("https://i.pinimg.com/564x/c2/e1/80/c2e180862cc290aa13d182c3c4949d31.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+  .card-image2 {
+    grid-area: image;
+    background: url("https://i.pinimg.com/originals/7a/34/e6/7a34e6c011eb3818b1741d6986124cd6.gif");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+  .card-image3 {
+    grid-area: image;
+    background: url("https://i.pinimg.com/564x/96/98/d1/9698d1bc87b00bf3b14728158f432da6.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+ 
+  .card-text {
+    grid-area: text;
+    margin: 25px;
+  }
+  .card-text .date {
+    color: rgb(255, 7, 110);
+    font-size:13px;
+  }
+  .card-text p {
+    color: grey;
+    font-size:15px;
+    font-weight: 300;
+  }
+  .card-text h2 {
+    margin-top:0px;
+    font-size:28px;
+    color: rgb(255, 7, 110);
+    font-family:  'Homemade Apple', cursive;
+  }
+  .card-stats {
+    grid-area: stats; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background:  #ed4264;
+  }
+  .card-stats .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    color: white;
+    padding:10px;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+  .grid{
+    display: grid;
+    grid-template-columns:repeat (3,1fr) ;
+
+    grid-template-rows: repeat ( 3,1fr); 
+  }
+  a {
+      text-decoration: none;
+  }
+  
