@@ -25,21 +25,21 @@
   }
   .card-image {
     grid-area: image;
-    background: url("https://i.pinimg.com/564x/80/d3/3e/80d33e3705055afa7ecd0e38f0d66296.jpg");
+    background: url("https://i.pinimg.com/originals/6f/e3/42/6fe34271595cceb3b3220d7ce6eca7b7.gif");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
   }
   .card-image1 {
     grid-area: image;
-    background: url("https://i.pinimg.com/564x/e1/a4/f7/e1a4f747fa66535206df392313ee2c3c.jpg");
+    background: url("https://i.pinimg.com/originals/1a/e6/f4/1ae6f46d7def6e3b1e78d59a81afd86c.gif");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
   }
   .card-image2 {
     grid-area: image;
-    background: url("https://i.pinimg.com/564x/38/ab/17/38ab17ec1bb35f1284fea1b96d496eb3.jpg");
+    background: url("https://i.pinimg.com/originals/73/ee/d3/73eed3df3755827adb907aa3ba02dcf3.gif");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
