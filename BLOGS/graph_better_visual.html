@@ -34,8 +34,8 @@
 <script src="https://d3js.org/d3.v4.js"></script>
 
 <!-- Add 2 buttons -->
-<button onclick="update(data1)">Confirmed Cases for COVID-19</button>
-<button onclick="update(data2)">Available beds per 10k people </button>
+<button class= "barbtn" onclick="update(data1)">Confirmed Cases for COVID-19</button>
+<button class="barbtn" onclick="update(data2)">Available beds per 10k people </button>
 
 <!-- Create a div where the graph will take place -->
 <div id="my_dataviz"></div>
@@ -128,6 +128,19 @@
     update(data1)
     
     </script>
+    <style>
+        .barbtn{
+        font-size:1rem;
+        padding:20px 20px;
+        border-radius:10px;
+        margin-top:20px;
+        color:white;
+        background-color:  #ed4264;
+        border: #ffedbc 8px solid;
+       
+        text-decoration:none;
+}
+    </style>
 
         </body>
         </html>
