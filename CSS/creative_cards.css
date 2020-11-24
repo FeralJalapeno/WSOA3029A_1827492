@@ -1,3 +1,8 @@
+h1{
+  color: rgb(255, 7, 110);
+    font-size:30px;
+    font-family:  'Homemade Apple', cursive;
+}
 .card {
     display: grid;
     grid-template-columns: 300px;
@@ -39,7 +44,14 @@
   }
   .card-image2 {
     grid-area: image;
-    background: url("https://i.pinimg.com/564x/5e/28/cb/5e28cb3ded24f30db7b3326737f0e0b8.jpg");
+    background: url("https://i.pinimg.com/564x/53/5d/ac/535dac2a7f2b2262a9206c4e16946df7.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+  .card-image3 {
+    grid-area: image;
+    background: url("https://i.pinimg.com/564x/96/98/d1/9698d1bc87b00bf3b14728158f432da6.jpg");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
