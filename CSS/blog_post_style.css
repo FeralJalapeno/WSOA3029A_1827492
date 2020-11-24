@@ -36,3 +36,33 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
+iframe{
+    text-align: center;
+}
+a.previous {
+    font-size: 30px;
+    font-family:  'Homemade Apple', cursive;
+    text-decoration: none;
+    display: inline-block;
+  padding: 8px 16px;
+  
+}
+a.previous:hover {
+    background-color:rgb(255, 7, 110);
+    color: black;
+  }
+  a.next {
+    font-size: 30px;
+    font-family:  'Homemade Apple', cursive;
+    text-decoration: none;
+    display: inline-block;
+  padding: 8px 16px;
+  text-align: right;
+  
+  
+
+}
+a.next:hover {
+    background-color:rgb(255, 7, 110);
+    color: black;
+  }
