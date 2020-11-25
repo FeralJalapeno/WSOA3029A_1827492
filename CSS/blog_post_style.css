@@ -41,6 +41,7 @@ iframe{
 }
 a.previous {
     font-size: 30px;
+    color: black;
     font-family:  'Homemade Apple', cursive;
     text-decoration: none;
     display: inline-block;
@@ -53,6 +54,7 @@ a.previous:hover {
   }
   a.next {
     font-size: 30px;
+    color: black;
     font-family:  'Homemade Apple', cursive;
     text-decoration: none;
     display: inline-block;
